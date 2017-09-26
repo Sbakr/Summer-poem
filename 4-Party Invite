@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                background-color:rgb(224, 192, 47);
+            }
+            .party-box {
+                background-color:rgb(255, 255, 255);
+                border: 6px solid rgb(29, 43, 125);
+                margin:15px;
+                width:56%;
+                float:right;
+                padding: 10px;
+            }
+            #party-blob {
+                position:absolute;
+                top: 208px;
+                left: 12px;
+                width:40%;
+            }
+            #number {
+                position:absolute;
+                top: 69px;
+                left: 25px;
+            }
+            h1 {
+                color:rgb(230, 0, 0);
+                text-align:center;
+                font-family: fantasy;
+            }
+            h2 {
+                font-family: fantasy;
+                text-align:center;
+                color:rgb(217, 39, 39);
+                margin:-5%;
+            }
+            #birthday {
+                color:rgb(176, 7, 7);
+            }
+            .detail {
+                font-weight:bold;
+                text-decoration:underline;
+            }
+            #ending {
+                margin:25px;
+                background-color:rgb(212, 167, 212);
+                width:153px;
+            }
+        </style>
+    </head>
+    <body>
+    <img id="party-blob"src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+    <img id="number" src="https://www.kasandbox.org/programming-images/space/9.png">
+    <div class="party-box">    
+        <h1>It's a PARTY!!</h1>
+        <h2>Come to my <span id="birthday"> birthday!</span></h2>
+        
+        <h3>The details:</h3>
+        <ul>
+            <li><span class="detail">Where?</span> At my house!</li>
+            <li><span class="detail">When?</span> At 3 o'clock!</li>
+            <li><span class="detail">What?</span> A lazer tag party!</li>
+            <li><span class="detail">Who?</span> You!!!</li>
+            <li><span class="detail">Why?</span> My 9th birthday!!</li>
+        </ul>
+        
+        <p id="ending">Hope to see you there:)</p>
+      </div>  
+    </body>
+</html>
